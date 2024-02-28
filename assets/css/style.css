@@ -512,13 +512,16 @@ a svg:hover {
     animation-duration: 1s;
     animation-timing-function: linear;
 }
+
 ::-webkit-scrollbar {
     width: 10px;
 }
+
 ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px grey;
     border-radius: 10px;
 }
+
 ::-webkit-scrollbar-thumb {
     background: #02CDCF;
     border-radius: 10px;
@@ -586,6 +589,14 @@ a svg:hover {
 @media (max-width:768px) {
     .pt-80 {
         padding-top: 0px !important;
+    }
+
+    .mt-n-100 {
+        margin-top: -20px !important;
+    }
+
+    .max-300 {
+        width: 30px;
     }
 
     .overflow-hide {
