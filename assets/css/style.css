@@ -666,7 +666,7 @@ a svg:hover {
         left: -100%;
         transition: .7s;
         background: #000;
-        z-index: 3 !important;
+        z-index: 1 !important;
     }
 
     .py-150 {
