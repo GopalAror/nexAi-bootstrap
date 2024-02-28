@@ -96,7 +96,7 @@ nav ul li a:hover::after {
 }
 
 .pb-49 {
-    padding-bottom: 49px;
+    padding-bottom: 36px;
 }
 
 .mt-40 {
@@ -501,6 +501,7 @@ a svg:hover {
 .foot-ellipis {
     top: -80%;
 }
+
 .animate {
     animation-name: bounce;
     animation-iteration-count: infinite;
