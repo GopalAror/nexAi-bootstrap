@@ -1,0 +1,108 @@
+:root {
+    /* font-size */
+    --fs-xxs: 15px;
+    --fs-xs: 16px;
+    --fs-s: 18px;
+    --fs-sm: 20px;
+    --fs-1sm: 24px;
+    --fs-2sm: 32px;
+    --fs-md: 40px;
+    --fs-lg: 60px;
+    /* color */
+    --fc-white: white;
+    --fc-blue: #02cdcf;
+    --fc-black: #0B0A0A;
+    --fc-grey: #686E6D;
+}
+
+.fs-xxs {
+    font-size: var(--fs-xxs) !important;
+}
+
+.fs-xs {
+    font-size: var(--fs-xs) !important;
+}
+
+.fs-s {
+    font-size: var(--fs-s) !important;
+}
+
+.fs-sm {
+    font-size: var(--fs-sm) !important;
+}
+
+.fs-1sm {
+    font-size: var(--fs-1sm) !important;
+}
+
+.fs-2sm {
+    font-size: var(--fs-2sm) !important;
+}
+
+.fs-md {
+    font-size: var(--fs-md) !important;
+}
+
+.fs-lg {
+    font-size: var(--fs-lg) !important;
+}
+
+/* color */
+.black {
+    background: var(--fc-black);
+}
+
+.color-black {
+    color: var(--fc-black);
+}
+
+.blue {
+    background: var(--fc-blue);
+}
+
+.color-blue {
+    color: var(--fc-blue);
+}
+
+.grey {
+    border-color: var(--fc-grey);
+}
+
+.white {
+    background: var(--fc-white);
+}
+
+.color-white {
+    color: var(--fc-white);
+}
+
+@media (max-width:576px) {
+    :root {
+        --fs-1sm: 20px;
+        --fs-s: 15px;
+        --fs-sm: 16px !important;
+        --fs-xs: 13px !important;
+        --fs-2sm: 23px !important;
+        --fs-md: 25px !important;
+        --fs-lg: 35px !important;
+    }
+}
+
+@media (max-width:768px) {
+    :root {
+        --fs-md: 35px;
+        --fs-2sm: 25px;
+    }
+}
+
+@media (max-width:900px) {
+    :root {
+        --fs-lg: 40px;
+    }
+}
+
+@media (max-width:1320px) {
+    :root {
+        --fs-lg: 44px
+    }
+}
