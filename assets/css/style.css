@@ -502,6 +502,10 @@ a svg:hover {
     top: -80%;
 }
 
+.h-500 {
+    height: 600px;
+}
+
 .animate {
     animation-name: bounce;
     animation-iteration-count: infinite;
@@ -580,7 +584,9 @@ a svg:hover {
     .pt-240 {
         padding-top: 70px;
     }
-
+.foot-ellipis{
+    display: none;
+}
     .pb-89 {
         padding-bottom: 70px;
     }
